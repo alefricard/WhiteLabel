@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "867413527398",
+    "project_id": "white-label-3dc00",
+    "storage_bucket": "white-label-3dc00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867413527398:android:e002bb89cf125831dc16a7",
+        "android_client_info": {
+          "package_name": "br.com.ricardo.whitelabel.bike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867413527398-ggp7r6d9t9krbd8okom8sd7co32qnuuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqd7YsNld2avyYTenFUodwSApk9SuBy5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867413527398-ggp7r6d9t9krbd8okom8sd7co32qnuuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867413527398:android:f56ac94f3211b85ddc16a7",
+        "android_client_info": {
+          "package_name": "br.com.ricardo.whitelabel.bike.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867413527398-ggp7r6d9t9krbd8okom8sd7co32qnuuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqd7YsNld2avyYTenFUodwSApk9SuBy5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867413527398-ggp7r6d9t9krbd8okom8sd7co32qnuuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867413527398:android:52698c937ef3cf71dc16a7",
+        "android_client_info": {
+          "package_name": "br.com.ricardo.whitelabel.car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867413527398-ggp7r6d9t9krbd8okom8sd7co32qnuuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqd7YsNld2avyYTenFUodwSApk9SuBy5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867413527398-ggp7r6d9t9krbd8okom8sd7co32qnuuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867413527398:android:74e2658a4944c309dc16a7",
+        "android_client_info": {
+          "package_name": "br.com.ricardo.whitelabel.car.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867413527398-ggp7r6d9t9krbd8okom8sd7co32qnuuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqd7YsNld2avyYTenFUodwSApk9SuBy5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867413527398-ggp7r6d9t9krbd8okom8sd7co32qnuuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
