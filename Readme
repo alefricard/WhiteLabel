@@ -1,0 +1,89 @@
+Passo 1
+
+    Configurar os flavors e as dimensões de flavors no arquivo build.gradle do módulo app: Flavors => bike, car, client, admin - Dimensões => product, side
+    Criar as pastas dos flavors dentro da pasta src do módulo app
+    Criar os ícones de launcher correspondentes aos flavors usando o recurso do Android Studio chamado Image Asset
+
+Passo 2
+
+    Configurar o projeto no Firebase com 4 aplicativos e importar o arquivo google-services.json para o projeto. Configurar o projeto com o plugin do Firebase.
+
+Passo 3
+
+    Visão geral sobre a Clean Architecture
+    Criar as camadas de dados e domínio
+    domain/model/**
+    domain/usecase/**
+    data/**
+    Implementação inicial da classe modelo, casos de usos e repositórios (abstração)
+
+Passo 4
+
+    Implementar a fonte de dados para cadastrar e consultar os produtos no Firebase
+
+Passo 5
+
+    Implementar as duas últimas funções da fonte de dados do Firebase
+
+
+Passo 6
+
+    Implementar todos os casos de uso da aplicação
+
+
+Passo 7
+
+    Implementar o layout da tela adicionar produto
+
+Passo 8
+
+    Implementar os listeners do formulários
+    Obter o imageUri de uma foto usando ActvityResultContracts.GetContents()
+
+Passo 9
+
+    Implementar o view model da tela Adicionar Produto
+
+
+Passo 10
+ 
+    Configurar a biblioteca de injeção de dependência no Projeto (DaggerHilter)
+
+Passo 11
+
+    Iniciar os serviços do Firebase (Firestore e Storage)
+    Testar o cadastro de produtos pelo aplicativo
+
+Passo 12
+
+    Implementar o layout da tela de listagem de produtos
+    Implementar o adapter da listagem de produtos
+
+
+Passo 13
+
+    Vincular o adapter com o recycler view de produtos
+    Implementar o view model para buscar os produtos
+
+
+Passo 14
+
+    Permitir que apenas os aplicativos que são Admin's mostrem o botão de cadastrar produto
+
+
+Passo 15
+
+    Navegar para a tela de cadastro
+    Atualizar listagem de produtos ao adicionar um novo produto usando o navBackStackEntry
+
+
+Passo 16
+
+    Swipe to refresh - atualização da listagem de produtos
+
+
+Passo 17
+
+    Definir e utilizar a paleta de cores do projeto Carro
+
+    Definir e utilizar a paleta de cores do projeto Bike
