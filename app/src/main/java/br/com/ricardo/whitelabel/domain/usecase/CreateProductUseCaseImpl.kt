@@ -15,14 +15,12 @@ class CreateProductUseCaseImpl(
 
     override suspend fun invoke(description: String, price: Double, imageUri: Uri): Product {
 
-        try {
-
-        val imageUrl = uploadProductImageUseCase(imageUri)
-        val product = Product(UUID.randomUUID().toString(), description, price,imageUrl)
-        productRepository.createProduct(product)
-        }catch (e: Exception){
+        return try {
+            val imageUrl = uploadProductImageUseCase(imageUri)
+            val product = Product(UUID.randomUUID().toString(), description, price, imageUrl)
+            productRepository.createProduct(product)
+        } catch (e: Exception) {
             throw e
         }
-
     }
 }
