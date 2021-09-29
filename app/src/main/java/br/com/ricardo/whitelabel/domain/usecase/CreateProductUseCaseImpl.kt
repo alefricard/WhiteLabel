@@ -5,8 +5,9 @@ import br.com.ricardo.whitelabel.data.ProductRepository
 import br.com.ricardo.whitelabel.domain.model.Product
 import java.lang.Exception
 import java.util.*
+import javax.inject.Inject
 
-class CreateProductUseCaseImpl(
+class CreateProductUseCaseImpl @Inject constructor(
 
     private val uploadProductImageUseCase: UploadProductImageUseCase,
     private val productRepository: ProductRepository

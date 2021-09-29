@@ -2,8 +2,9 @@ package br.com.ricardo.whitelabel.domain.usecase
 
 import android.net.Uri
 import br.com.ricardo.whitelabel.data.ProductRepository
+import javax.inject.Inject
 
-class UploadProductImageUseCaseImpl(
+class UploadProductImageUseCaseImpl @Inject constructor(
 
     private val productRepository: ProductRepository
 

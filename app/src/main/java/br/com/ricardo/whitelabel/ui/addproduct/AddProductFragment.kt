@@ -6,11 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModel
 import br.com.ricardo.whitelabel.databinding.AddProductFragmentBinding
 import br.com.ricardo.whitelabel.util.CurrencyTextWatcher
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.textfield.TextInputLayout
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class AddProductFragment : BottomSheetDialogFragment() {
 
     private var _binding: AddProductFragmentBinding? = null
@@ -18,7 +22,7 @@ class AddProductFragment : BottomSheetDialogFragment() {
 
     private var imageUri: Uri? = null
 
-    /*buscando imagem no OS para guardando e mostrando na tela*/
+
     private val getContent =
         registerForActivityResult(ActivityResultContracts.GetContent()){ uri->
             imageUri = uri
@@ -26,7 +30,7 @@ class AddProductFragment : BottomSheetDialogFragment() {
         }
 
 
-    private lateinit var viewModel: AddProductViewModel
+    private val viewModel: AddProductViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,

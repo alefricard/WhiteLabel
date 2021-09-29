@@ -1,2 +1,2 @@
-rootProject.name = "White Label Tutorial"
+rootProject.name = "White Label"
 include ':app'

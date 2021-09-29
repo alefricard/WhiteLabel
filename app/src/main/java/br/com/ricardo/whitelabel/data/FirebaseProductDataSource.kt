@@ -9,15 +9,15 @@ import br.com.ricardo.whitelabel.util.STORAGE_IMAGES
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import java.util.*
+import javax.inject.Inject
 import kotlin.coroutines.suspendCoroutine
 
-class FirebaseProductDataSource(
+class FirebaseProductDataSource @Inject constructor(
     firebaseFirestore : FirebaseFirestore,
     firebaseStorage: FirebaseStorage
 
 ) : ProductDataSource {
-    /* Estrutura das coleções:
-        data/car/products/timestamp/productA
+    /* Collection structure:
         data/bike/products/timestamp/productB
     */
 
@@ -26,8 +26,7 @@ class FirebaseProductDataSource(
 
     private val storageReference = firebaseStorage.reference
 
-    /*Faz a comparação dos atributos para chamar e montar a lista
-    * usando coroutine para facilitar a implementação e evitar fazer varios callbacks*/
+
 
     override suspend fun getProduct(): List<Product> {
         return suspendCoroutine { continuation ->

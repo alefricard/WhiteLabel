@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.20833333333333334" />
+        <entry key="app/src/bikeAdmin/res/drawable/ic_launcher_foreground.xml" value="0.22135416666666666" />
         <entry key="app/src/main/res/layout/add_produc_fragment.xml" value="0.14402173913043478" />
         <entry key="app/src/main/res/layout/add_product_fragment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_products.xml" value="0.13903985507246377" />
       </map>
     </option>
   </component>

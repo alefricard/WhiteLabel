@@ -9,10 +9,13 @@ import androidx.lifecycle.viewModelScope
 import br.com.ricardo.whitelabel.R
 import br.com.ricardo.whitelabel.domain.usecase.CreateProductUseCase
 import br.com.ricardo.whitelabel.util.fromCurrency
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 import kotlin.Exception
 
-class AddProductViewModel(
+@HiltViewModel
+class AddProductViewModel @Inject constructor (
     private val createProductUseCase: CreateProductUseCase
 ) : ViewModel() {
 
