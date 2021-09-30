@@ -47,12 +47,12 @@ android {
 
             buildConfigField "String" , "FIREBASE_FLAVOR_COLLECTION", "\"bike\""
         }
-        car {
+        bikini {
             dimension 'product'
-            applicationIdSuffix '.car'
-            manifestPlaceholders.appName = "Car"
+            applicationIdSuffix '.bikini'
+            manifestPlaceholders.appName = "Bikini"
 
-            buildConfigField "String" , "FIREBASE_FLAVOR_COLLECTION", "\"car\""
+            buildConfigField "String" , "FIREBASE_FLAVOR_COLLECTION", "\"bikini\""
         }
         client {
             dimension 'side'
